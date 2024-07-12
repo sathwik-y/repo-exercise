@@ -89,10 +89,10 @@ def hardcoded_keyboard() :
     plt.show()
 
 def main() :
-    # hardcoded() #hardcoded values
-    # keyboard() #user input values
-    # singleset() #single set from file single_set.txt
-    # multisetfile() #multi set from file multi_set.txt
+    hardcoded() #hardcoded values
+    keyboard() #user input values
+    singleset() #single set from file single_set.txt
+    multisetfile() #multi set from file multi_set.txt
     multiset() #multi set declared
     hardcoded_keyboard() #hardcoded and userinput values together
 main()
